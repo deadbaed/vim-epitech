@@ -25,5 +25,6 @@ endfunction
 
 " function to insert the epitech header
 function epitech#addHeader()
-	call xyz
+	call s:inputProjectName()
+	call s:inputFileDescription()
 endfunction
