@@ -41,6 +41,12 @@ endfunction
 
 " function to insert the epitech header
 function epitech#addHeader()
+	" if checkFiletype() fails, return error
+	if !s:checkFiletype()
+		echoerr "Failed to add Epitech header! Unsupported filetype: " . &filetype
+		return
+	endif
+
 	call s:inputProjectName()
 	call s:inputFileDescription()
 endfunction
