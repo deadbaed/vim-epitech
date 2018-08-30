@@ -47,6 +47,9 @@ function epitech#addHeader()
 		return
 	endif
 
+	call s:inputProjectName()
+	call s:inputFileDescription()
+
 	let l:com1 = s:comStyles[&filetype][1]
 	let l:com2 = s:comStyles[&filetype][2]
 	let l:com3 = s:comStyles[&filetype][3]
@@ -59,7 +62,4 @@ function epitech#addHeader()
 	let l:let = append(5, l:com3)
 	let l:let = append(6, "")
 	:8
-
-	call s:inputProjectName()
-	call s:inputFileDescription()
 endfunction
