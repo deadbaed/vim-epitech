@@ -3,6 +3,16 @@
 " made by x4m3
 " source code: https://git.13370403.xyz/vim-epitech
 
+" dictionary of the comments styles
+" 1: first line
+" 2: middle lines
+" 3: last line
+let s:comStyles = {
+			\'make': {1: '##', 2: '##', 3: '##'},
+			\'c': {1: '/*', 2: '**', 3: '*/'},
+			\'cpp': {1: '//', 2: '//', 3: '//'},
+}
+
 " function to prompt user for project name
 function! s:inputProjectName()
 	" call inputsave() to prompt user for input
