@@ -13,6 +13,12 @@ let s:comStyles = {
 			\'cpp': {1: '//', 2: '//', 3: '//'},
 }
 
+" check if current filetype is supported
+function! s:checkFiletype()
+	" check dictionary for current filetype
+	return has_key(s:comStyles, &filetype)
+endfunction
+
 " function to prompt user for project name
 function! s:inputProjectName()
 	" call inputsave() to prompt user for input
