@@ -3,7 +3,7 @@
 " made by x4m3
 " source code: https://git.13370403.xyz/vim-epitech
 
-" dictionary of the comments styles
+" dictionary of the comments styles for supported languages
 " 1: first line
 " 2: middle lines
 " 3: last line
