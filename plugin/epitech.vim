@@ -4,4 +4,4 @@
 " source code: https://git.13370403.xyz/vim-epitech
 
 " Commands ran by the user
-command! TekAddHeader call epitech#addPlugin(()
+command! TekAddHeader call epitech#addHeader(()
