@@ -38,6 +38,12 @@ function! s:inputFileDescription()
 	call inputrestore()
 endfunction
 
+" function to get current year
+function~ s:getCurrentYear()
+	let currentYear = strftime("%Y")
+	return currentYear
+endfunction
+
 " function to insert the epitech header
 function epitech#addHeader()
 	" if checkFiletype() fails, return error
@@ -54,7 +60,7 @@ function epitech#addHeader()
 	let l:com3 = s:comStyles[&filetype][3]
 
 	let l:let = append(0, l:com1)
-	let l:let = append(1, l:com2 . " EPITECH PROJECT, " CURRENT_YEAR)
+	let l:let = append(1, l:com2 . " EPITECH PROJECT, " . s:getCurrentYear())
 	let l:let = append(2, l:com2 . " " . project_name)
 	let l:let = append(3, l:com2 . " File description:")
 	let l:let = append(4, l:com2 . " " . file_description)
