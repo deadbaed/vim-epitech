@@ -1,7 +1,6 @@
 " autoload/epitech.vim
 "
 " made by x4m3
-" source code: https://git.13370403.xyz/vim-epitech
 
 " dictionary of the comments styles for supported languages
 " 1: first line
