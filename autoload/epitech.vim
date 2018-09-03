@@ -7,10 +7,10 @@
 " 2: middle lines
 " 3: last line
 let s:comStyles = {
-			\'make': {1: '##', 2: '##', 3: '##'},
-			\'c': {1: '/*', 2: '**', 3: '*/'},
-			\'cpp': {1: '//', 2: '//', 3: '//'},
-}
+			\'make': {'1': '##', '2': '##', '3': '##'},
+			\'c': {'1': '/*', '2': '**', '3': '*/'},
+			\'cpp': {'1': '//', '2': '//', '3': '//'},
+			\}
 
 " check if current filetype is supported
 function! s:CheckFiletype()
@@ -55,9 +55,9 @@ function Epitech#addHeader()
 	call s:InputProjectName()
 	call s:InputFileDescription()
 
-	let l:com1 = s:comStyles[&filetype][1]
-	let l:com2 = s:comStyles[&filetype][2]
-	let l:com3 = s:comStyles[&filetype][3]
+	let l:com1 = s:comStyles[&filetype]['1']
+	let l:com2 = s:comStyles[&filetype]['2']
+	let l:com3 = s:comStyles[&filetype]['3']
 
 	let l:let = append(0, l:com1)
 	let l:let = append(1, l:com2 . " EPITECH PROJECT, " . s:GetCurrentYear())
