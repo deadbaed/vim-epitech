@@ -31,3 +31,7 @@ setlocal noexpandtab
 " ** lines in middle
 " */ last line
 setlocal comments=s:/*,m:**,ex:*/
+
+" highlight leading and trailing spaces
+syn match ErrorLeadSpace /^ \+/
+syn match ErrorTailSpace / \+$/
