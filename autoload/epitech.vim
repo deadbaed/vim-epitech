@@ -13,13 +13,13 @@ let s:comStyles = {
 }
 
 " check if current filetype is supported
-function! s:checkFiletype()
+function! s:CheckFiletype()
 	" check dictionary for current filetype
 	return has_key(s:comStyles, &filetype)
 endfunction
 
 " function to prompt user for project name
-function! s:inputProjectName()
+function! s:InputProjectName()
 	" call inputsave() to prompt user for input
 	" call inputrestore() to finish user prompt
 
@@ -29,7 +29,7 @@ function! s:inputProjectName()
 endfunction
 
 " function to prompt user for file description
-function! s:inputFileDescription()
+function! s:InputFileDescription()
 	" call inputsave() to prompt user for input
 	" call inputrestore() to finish user prompt
 
@@ -39,28 +39,28 @@ function! s:inputFileDescription()
 endfunction
 
 " function to get current year
-function~ s:getCurrentYear()
+function! s:GetCurrentYear()
 	let currentYear = strftime("%Y")
 	return currentYear
 endfunction
 
 " function to insert the epitech header
-function epitech#addHeader()
+function Epitech#addHeader()
 	" if checkFiletype() fails, return error
-	if !s:checkFiletype()
+	if !s:CheckFiletype()
 		echoerr "Failed to add Epitech header! Unsupported filetype: " . &filetype
 		return
 	endif
 
-	call s:inputProjectName()
-	call s:inputFileDescription()
+	call s:InputProjectName()
+	call s:InputFileDescription()
 
 	let l:com1 = s:comStyles[&filetype][1]
 	let l:com2 = s:comStyles[&filetype][2]
 	let l:com3 = s:comStyles[&filetype][3]
 
 	let l:let = append(0, l:com1)
-	let l:let = append(1, l:com2 . " EPITECH PROJECT, " . s:getCurrentYear())
+	let l:let = append(1, l:com2 . " EPITECH PROJECT, " . s:GetCurrentYear())
 	let l:let = append(2, l:com2 . " " . project_name)
 	let l:let = append(3, l:com2 . " File description:")
 	let l:let = append(4, l:com2 . " " . file_description)
