@@ -1,7 +1,7 @@
 *epitech.txt* Help vim users in school Epitech
 
 ==============================================================================
-CONTENTS                                                    *epitech-contents*
+CONTENTS                                                     *EpitechContents*
 
   1. Usage .............. |EpitechUsage|
   2. Configuration ...... |EpitechConfiguration|
