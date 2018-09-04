@@ -12,7 +12,7 @@ CONTENTS                                                     *EpitechContents*
   7. Author ............. |EpitechAuthor|
 
 ==============================================================================
-1. Intro                                                        *EpitechUsage*
+1. Usage                                                        *EpitechUsage*
 
 Run `:TekAddHeader` to run the plugin, enter your project name,
 and a description for the current file you're editing.
