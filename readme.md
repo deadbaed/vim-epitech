@@ -9,8 +9,11 @@ following the new header style (2017 and later).
 use your favorite vim plugin manager.
 
 ## usage
-run `:TekAddHeader` in normal mode and follow
-the instructions given by the plugin.
+run `:TekAddHeader` in normal mode to run the plugin, enter your project name,
+and a description for the current file you're editing.
+
+the plugin will add the epitech header at the top of your file, inserting
+the current year, as well as the data you provided earlier.
 
 ## credits
 plugin based off [Le-Bit/vim-epitech](https://github.com/Le-Bit/vim-epitech),
