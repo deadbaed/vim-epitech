@@ -1,4 +1,5 @@
 *epitech.txt* Help vim users in school Epitech
+*Epitech*
 
 ==============================================================================
 CONTENTS                                                     *EpitechContents*
