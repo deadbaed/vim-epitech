@@ -30,3 +30,6 @@ development is done on **[x4m3.rocks!](https://git.x4m3.rocks/vim-epitech)**, no
 ## changelog
 because changelogs are better than git dumps, right?
 using [semantic versioning](https://semver.org)
+
+**1.0.0 - 2018-09-05**
+- Initial release
