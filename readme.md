@@ -35,5 +35,8 @@ using [semantic versioning](https://semver.org).
 
 all [git tags](https://git.x4m3.rocks/vim-epitech/refs) are signed with my [pgp key](https://x4m3.rocks/pgp-0x69771CD04BA82EC0.txt).
 
+[1.0.1 - 2018-09-06](https://git.x4m3.rocks/vim-epitech/tag/?h=v1.0.1)
+- Fixed a bug where the plugin wouldn't run on linux.
+
 [1.0.0 - 2018-09-05](https://git.x4m3.rocks/vim-epitech/tag/?h=v1.0.0)
 - Initial release.
