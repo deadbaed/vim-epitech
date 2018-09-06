@@ -6,7 +6,8 @@ vim plugin for epitech students
 following the new header style (2017 and later).
 
 ## install
-use your favorite vim plugin manager.
+use your favorite vim plugin manager,
+with the url `https://github.com/x4m3/vim-epitech.git`.
 
 ## usage
 run `:TekAddHeader` in normal mode to run the plugin, enter your project name,
