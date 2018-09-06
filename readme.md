@@ -26,7 +26,8 @@ by you.
 
 licensed under the **mit license** (see [license.txt](license.txt))
 
-development is done on **[x4m3.rocks!](https://git.x4m3.rocks/vim-epitech)**, not on github.
+development is done on **[x4m3.rocks!](https://git.x4m3.rocks/vim-epitech)**,
+but the bug tracker is on [github](https://github.com/x4m3/vim-epitech/issues).
 
 ## changelog
 because changelogs are better than git dumps, right?
