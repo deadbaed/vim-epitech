@@ -33,5 +33,7 @@ but the bug tracker is on [github](https://github.com/x4m3/vim-epitech/issues).
 because changelogs are better than git dumps, right?
 using [semantic versioning](https://semver.org).
 
-**1.0.0 - 2018-09-05**
+all [git tags](https://git.x4m3.rocks/vim-epitech/refs) are signed with my [pgp key](https://x4m3.rocks/pgp-0x69771CD04BA82EC0.txt).
+
+[1.0.0 - 2018-09-05](https://git.x4m3.rocks/vim-epitech/tag/?h=v1.0.0)
 - Initial release.
