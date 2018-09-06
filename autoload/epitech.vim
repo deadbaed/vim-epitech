@@ -47,7 +47,7 @@ function! s:GetCurrentYear()
 endfunction
 
 " function to insert the epitech header
-function Epitech#addHeader()
+function epitech#addHeader()
 	" if checkFiletype() fails, return error
 	if !s:CheckFiletype()
 		echoerr "Failed to add Epitech header! Unsupported filetype: " . &filetype
