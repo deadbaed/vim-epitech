@@ -5,12 +5,11 @@
 CONTENTS                                                     *EpitechContents*
 
   1. Usage .............. |EpitechUsage|
-  2. Configuration ...... |EpitechConfiguration|
-  3. License ............ |EpitechLicense|
-  4. Bugs ............... |EpitechBugs|
-  5. Contributing ....... |EpitechContributing|
-  6. Changelog .......... |EpitechChangelog|
-  7. Author ............. |EpitechAuthor|
+  2. License ............ |EpitechLicense|
+  3. Bugs ............... |EpitechBugs|
+  4. Contributing ....... |EpitechContributing|
+  5. Changelog .......... |EpitechChangelog|
+  6. Author ............. |EpitechAuthor|
 
 ==============================================================================
 1. Usage                                                        *EpitechUsage*
@@ -22,33 +21,28 @@ The plugin will add the Epitech header at the top of your file, inserting
 the current year, as well as the data you provided earlier.
 
 ==============================================================================
-2. Configuration                                        *EpitechConfiguration*
-
-There is no configuration needed for this plugin.
-
-==============================================================================
-3. License                                                    *EpitechLicense*
+2. License                                                    *EpitechLicense*
 
 MIT license.
 
 ==============================================================================
-4. Bugs                                                          *EpitechBugs*
+3. Bugs                                                          *EpitechBugs*
 
 If you find any bugs, send me an email (see |EpitechAuthor|) and
 report the bug on https://github.com/x4m3/vim-epitech/issues/new
 
 ==============================================================================
-5. Contributing                                          *EpitechContributing*
+4. Contributing                                          *EpitechContributing*
 
 Head over to https://git.x4m3.rocks/vim-epitech and start working.
 
 ==============================================================================
-6. Changelog                                                *EpitechChangelog*
+5. Changelog                                                *EpitechChangelog*
 
 Check either the git dumps, git tags, or the readme. I don't care.
 
 ==============================================================================
-7. Author                                                      *EpitechAuthor*
+6. Author                                                      *EpitechAuthor*
 
 Author:  Philippe Loctaux
 Email:   p@philippeloctaux.com
