@@ -37,5 +37,5 @@ all git tags are signed with my [pgp key](https://x4m3.rocks/pgp-0x69771CD04BA82
 **1.0.1 - 2018-09-06**
 - Fixed a bug where the plugin wouldn't run on linux.
 
-1.0.0 - 2018-09-05**
+**1.0.0 - 2018-09-05**
 - Initial release.
