@@ -26,17 +26,16 @@ by you.
 
 licensed under the **mit license** (see [license.txt](license.txt)).
 
-development is done on [x4m3.rocks!](https://git.x4m3.rocks/vim-epitech),
-but the bug tracker is on [github](https://github.com/x4m3/vim-epitech/issues).
+development is done on [x4m3.rocks!](https://git.x4m3.rocks/vim-epitech).
 
 ## changelog
 because changelogs are better than git dumps, right?
 using [semantic versioning](https://semver.org).
 
-all [git tags](https://git.x4m3.rocks/vim-epitech/refs) are signed with my [pgp key](https://x4m3.rocks/pgp-0x69771CD04BA82EC0.txt).
+all git tags are signed with my [pgp key](https://x4m3.rocks/pgp-0x69771CD04BA82EC0.txt).
 
-[1.0.1 - 2018-09-06](https://git.x4m3.rocks/vim-epitech/tag/?h=v1.0.1)
+**1.0.1 - 2018-09-06**
 - Fixed a bug where the plugin wouldn't run on linux.
 
-[1.0.0 - 2018-09-05](https://git.x4m3.rocks/vim-epitech/tag/?h=v1.0.0)
+1.0.0 - 2018-09-05**
 - Initial release.
