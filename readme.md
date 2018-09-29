@@ -7,7 +7,7 @@ following the new header style (2017 and later).
 
 ## install
 use your favorite vim plugin manager,
-with the url `https://github.com/x4m3/vim-epitech.git`.
+with the url `https://git.x4m3.rocks/x4m3/vim-epitech`.
 
 ## usage
 run `:TekAddHeader` in normal mode to run the plugin, enter your project name,
@@ -26,7 +26,7 @@ by you.
 
 licensed under the **mit license** (see [license.txt](license.txt)).
 
-development is done on [x4m3.rocks!](https://git.x4m3.rocks/vim-epitech).
+development is done on [x4m3.rocks!](https://git.x4m3.rocks/x4m3/vim-epitech).
 
 ## changelog
 because changelogs are better than git dumps, right?
