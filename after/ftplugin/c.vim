@@ -12,8 +12,8 @@ setlocal cindent
 
 " define indentation
 setlocal tabstop=8
-setlocal shiftwidth=8
-setlocal softtabstop=8
+setlocal shiftwidth=4
+setlocal softtabstop=0
 
 " show colorbar at column 80
 setlocal colorcolumn=80
@@ -22,8 +22,9 @@ setlocal colorcolumn=80
 setlocal list
 setlocal listchars=tab:>-
 
-" insert real tabs, no spaces
-setlocal noexpandtab
+" insert spaces, not tabs
+setlocal expandtab
+setlocal smarttab
 
 " comments
 "
