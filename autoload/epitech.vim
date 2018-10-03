@@ -50,7 +50,7 @@ endfunction
 function epitech#addHeader()
 	" if checkFiletype() fails, return error
 	if !s:CheckFiletype()
-		echoerr "Failed to add Epitech header! Unsupported filetype: " . &filetype
+		echoerr "Unsupported filetype for Epitech header: " . &filetype
 		return
 	endif
 
