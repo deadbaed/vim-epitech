@@ -18,10 +18,6 @@ setlocal softtabstop=0
 " show colorbar at column 80
 setlocal colorcolumn=80
 
-" show tab characters as '>-'
-setlocal list
-setlocal listchars=tab:>-
-
 " insert spaces, not tabs
 setlocal expandtab
 setlocal smarttab
