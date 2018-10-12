@@ -20,7 +20,7 @@ setlocal colorcolumn=80
 
 " show extra characters
 setlocal list
-setlocal listchars=eol:¬
+setlocal listchars=eol:¬,tab:>-
 
 " insert spaces, not tabs
 setlocal expandtab
