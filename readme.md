@@ -36,6 +36,11 @@ using [semantic versioning](https://semver.org).
 
 all git tags are signed with my [pgp key](https://x4m3.rocks/pgp-0x69771CD04BA82EC0.txt).
 
+**1.1.0 - 2018-10-12**
+- Respecting the new Epitech norm (4 spaces instead of 8 col tabs)
+- Showed EOL characters
+- Added support for Makefile
+
 **1.0.1 - 2018-09-06**
 - Fixed a bug where the plugin wouldn't run on linux.
 
