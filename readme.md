@@ -26,7 +26,9 @@ by you.
 
 licensed under the **mit license** (see [license.txt](license.txt)).
 
-development is done on [x4m3.rocks!](https://git.x4m3.rocks/x4m3/vim-epitech).
+development is done on [x4m3.rocks!](https://git.x4m3.rocks/x4m3/vim-epitech)  
+but feel free to send an email to **p [at] philippeloctaux [dot] com** to  
+report a bug or an issue or an idea to improve the plugin.
 
 ## changelog
 because changelogs are better than git dumps, right?
