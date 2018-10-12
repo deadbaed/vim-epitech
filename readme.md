@@ -3,7 +3,7 @@ vim plugin for epitech students
 
 ## features
 * adds epitech header into **.c**, **.cpp**, **.h** files or in a **Makefile**,
-following the new header style (2017 and later).
+following the new header style (2018 and later).
 
 ## install
 use your favorite vim plugin manager,
