@@ -28,13 +28,14 @@ MIT license.
 ==============================================================================
 3. Bugs                                                          *EpitechBugs*
 
-If you find any bugs, send me an email (see |EpitechAuthor|) and
-report the bug on https://github.com/x4m3/vim-epitech/issues/new
+If you find any bugs, send me an email (see |EpitechAuthor|) and check
+the bug reports on https://git.x4m3.rocks/x4m3/vim-epitech/issues.
 
 ==============================================================================
 4. Contributing                                          *EpitechContributing*
 
-Head over to https://git.x4m3.rocks/vim-epitech and start working.
+Head over to https://git.x4m3.rocks/x4m3/vim-epitech, clone the git repo,
+do your work, and send me patches via email (see |EpitechAuthor|).
 
 ==============================================================================
 5. Changelog                                                *EpitechChangelog*
