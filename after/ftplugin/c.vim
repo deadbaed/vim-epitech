@@ -26,13 +26,6 @@ setlocal listchars=eol:¬,tab:>-
 setlocal expandtab
 setlocal smarttab
 
-" comments
-"
-" /* first line
-" ** lines in middle
-" */ last line
-setlocal comments=s:/*,m:**,ex:*/
-
 " highlight leading and trailing spaces
 syn match ErrorLeadSpace /^ \+/
 syn match ErrorTailSpace / \+$/
