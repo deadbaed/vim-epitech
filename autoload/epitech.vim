@@ -26,6 +26,9 @@ function! s:InputFileDescription()
 	call inputsave()
 	let file_description = input('Enter file description: ')
 	call inputrestore()
+	if strlen(file_description) == 0
+		let file_description = "read the title"
+	endif
 	return file_description
 endfunction
 
