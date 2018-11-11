@@ -18,17 +18,6 @@ function! s:CheckFiletype()
 	return has_key(s:comStyles, &filetype)
 endfunction
 
-" function to prompt user for project name
-function! s:InputProjectName()
-	" call inputsave() to prompt user for input
-	" call inputrestore() to finish user prompt
-
-	call inputsave()
-	let project_name = input('Enter project name: ')
-	call inputrestore()
-	return project_name
-endfunction
-
 " function to prompt user for file description
 function! s:InputFileDescription()
 	" call inputsave() to prompt user for input
@@ -60,7 +49,7 @@ function epitech#addHeader()
 
 	let l:let = append(0, l:com1)
 	let l:let = append(1, l:com2 . " EPITECH PROJECT, " . s:GetCurrentYear())
-	let l:let = append(2, l:com2 . " " . s:InputProjectName())
+	let l:let = append(2, l:com2 . " " . expand('%:t'))
 	let l:let = append(3, l:com2 . " File description:")
 	let l:let = append(4, l:com2 . " " . s:InputFileDescription())
 	let l:let = append(5, l:com3)
