@@ -24,7 +24,7 @@ function! s:InputFileDescription()
 	" call inputrestore() to finish user prompt
 
 	call inputsave()
-	let file_description = input('Enter file description: ')
+	let file_description = input('Enter file description (or hit ENTER to put "read the title"): ')
 	call inputrestore()
 	if strlen(file_description) == 0
 		let file_description = "read the title"
