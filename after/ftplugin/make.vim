@@ -17,11 +17,7 @@ setlocal colorcolumn=80
 
 " show extra characters
 setlocal list
-setlocal listchars=eol:¬,tab:>-
+setlocal listchars=eol:¬,tab:>-,trail:!
 
 " insert real tabs, no spaces
 setlocal noexpandtab
-
-" highlight leading and trailing spaces
-syn match ErrorLeadSpace /^ \+/
-syn match ErrorTailSpace / \+$/
