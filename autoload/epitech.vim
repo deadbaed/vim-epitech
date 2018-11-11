@@ -49,7 +49,7 @@ function epitech#addHeader()
 
 	let l:let = append(0, l:com1)
 	let l:let = append(1, l:com2 . " EPITECH PROJECT, " . s:GetCurrentYear())
-	let l:let = append(2, l:com2 . " " . expand('%:t'))
+	let l:let = append(2, l:com2 . " " . expand('%:r'))
 	let l:let = append(3, l:com2 . " File description:")
 	let l:let = append(4, l:com2 . " " . s:InputFileDescription())
 	let l:let = append(5, l:com3)
