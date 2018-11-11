@@ -24,10 +24,10 @@ function! s:InputFileDescription()
 	" call inputrestore() to finish user prompt
 
 	call inputsave()
-	let file_description = input('Enter file description (or hit ENTER to put "read the title"): ')
+	let file_description = input('Enter file description (or press ENTER to put some random text): ')
 	call inputrestore()
 	if strlen(file_description) == 0
-		let file_description = "read the title"
+		let file_description = "vim-epitech by Philippe Loctaux (https://git.x4m3.rocks/x4m3/vim-epitech)"
 	endif
 	return file_description
 endfunction
