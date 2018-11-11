@@ -14,11 +14,10 @@ CONTENTS                                                     *EpitechContents*
 ==============================================================================
 1. Usage                                                        *EpitechUsage*
 
-Run `:TekAddHeader` to run the plugin, enter your project name,
-and a description for the current file you're editing.
+Run `:TekAddHeader` to start, and enter a description for the opened file.
 
 The plugin will add the Epitech header at the top of your file, inserting
-the current year, as well as the data you provided earlier.
+the current year, as well as the file description.
 
 ==============================================================================
 2. License                                                    *EpitechLicense*
@@ -35,7 +34,7 @@ the bug reports on https://git.x4m3.rocks/x4m3/vim-epitech/issues.
 4. Contributing                                          *EpitechContributing*
 
 Head over to https://git.x4m3.rocks/x4m3/vim-epitech, clone the git repo,
-do your work, and send me patches via email (see |EpitechAuthor|).
+do your work, and send patches via email (see |EpitechAuthor|).
 
 ==============================================================================
 5. Changelog                                                *EpitechChangelog*
