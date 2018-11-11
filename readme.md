@@ -2,19 +2,21 @@
 vim plugin for epitech students
 
 ## features
-* adds epitech header into **.c**, **.cpp**, **.h** files or in a **Makefile**,
-following the new header style (2018 and later).
+* adds epitech header following the new header style (promotion 2023 and later)
+* turns on syntax highlighting
+* sets the correct indentation (4 spaces)
+* shows a colored bar at 80 columns
+* displays extra characters (end of line, tabulations, trailing spaces)
 
 ## install
 use your favorite vim plugin manager,
 with the url `https://git.x4m3.rocks/x4m3/vim-epitech`.
 
 ## usage
-run `:TekAddHeader` in normal mode to run the plugin, enter your project name,
-and a description for the current file you're editing.
+run `:TekAddHeader` in normal mode to run the plugin, and enter a description
+for your file (or dont, some text will be put instead 😜).
 
-the plugin will add the epitech header at the top of your file, inserting
-the current year, as well as the data you provided earlier.
+the epitech header will be then put at the top of your file.
 
 ## credits
 plugin based off [Le-Bit/vim-epitech](https://github.com/Le-Bit/vim-epitech),
