@@ -14,7 +14,7 @@ with the url `https://git.x4m3.rocks/x4m3/vim-epitech`.
 
 ## usage
 run `:TekAddHeader` in normal mode to run the plugin, and enter a description
-for your file (or dont, some text will be put instead 😜).
+for your file (or some text will be put instead 😜).
 
 the epitech header will be then put at the top of your file.
 
