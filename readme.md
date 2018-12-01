@@ -38,6 +38,11 @@ using [semantic versioning](https://semver.org).
 
 all git tags are signed with my [pgp key](https://x4m3.rocks/pgp-0x69771CD04BA82EC0.txt).
 
+**1.2.0 - 2018-12-01**
+- Showing trailing spaces
+- Using file name for "project name" in header
+- If file description is empty, a nice message is put instead
+
 **1.1.0 - 2018-10-12**
 - Respecting the new Epitech norm (4 spaces instead of 8 col tabs)
 - Showed EOL characters

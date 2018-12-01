@@ -39,6 +39,11 @@ do your work, and send patches via email (see |EpitechAuthor|).
 ==============================================================================
 5. Changelog                                                *EpitechChangelog*
 
+1.2.0 - 2018-12-01
+- Showing trailing spaces
+- Using file name for "project name" in header
+- If file description is empty, a nice message is put instead
+
 1.1.0 - 2018-10-12
 - Respecting the new Epitech norm (4 spaces instead of 8 col tabs)
 - Showed EOL characters
