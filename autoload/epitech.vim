@@ -34,7 +34,8 @@ endfunction
 
 " function to get current year
 function! s:GetCurrentYear()
-	let currentYear = strftime("%Y")
+	let currentYear = 2018
+	"let currentYear = strftime("%Y")
 	return currentYear
 endfunction
 
