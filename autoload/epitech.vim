@@ -12,6 +12,13 @@ let s:comStyles = {
 			\'cpp': {'1': '//', '2': '//', '3': '//'},
 			\}
 
+" quotes to insert in file_description
+let s:quotes = {
+			\"try not to segfault, good luck :)"
+			\"don't sleep"
+			\"hello world?"
+			\}
+
 " check if current filetype is supported
 function! s:CheckFiletype()
 	" check dictionary for current filetype
