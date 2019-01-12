@@ -17,6 +17,8 @@ let s:quotes = {
 			\"try not to segfault, good luck :)"
 			\"don't sleep"
 			\"hello world?"
+			\"programmers start to count from 0"
+			\"man man"
 			\}
 
 " check if current filetype is supported
