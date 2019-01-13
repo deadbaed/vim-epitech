@@ -37,7 +37,8 @@ function! s:InputFileDescription()
 	call inputrestore()
 	" if the length of the input is null
 	if strlen(file_description) == 0
-		let file_description = "try not to segfault, good luck :)"
+		let currentSecond = strftime('%S')
+		let file_description = s:quotes[currentSecond]
 	endif
 	return file_description
 endfunction
