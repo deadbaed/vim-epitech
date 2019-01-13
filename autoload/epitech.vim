@@ -26,6 +26,7 @@ function! s:InputFileDescription()
 	call inputsave()
 	let file_description = input('Enter file description (or press ENTER to put a random text): ')
 	call inputrestore()
+	" if the length of the input is null
 	if strlen(file_description) == 0
 		let file_description = "try not to segfault, good luck :)"
 	endif
