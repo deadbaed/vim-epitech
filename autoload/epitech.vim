@@ -19,6 +19,9 @@ let s:quotes = [
 			\"hello world?",
 			\"programmers start to count from 0",
 			\"man man",
+			\"vim-epitech made by x4m3",
+			\"https://github.com/x4m3/vim-epitech",
+			\"echo $?",
 			\]
 
 " check if current filetype is supported
