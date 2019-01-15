@@ -15,13 +15,35 @@ let s:comStyles = {
 " quotes to insert in file_description
 let s:quotes = [
 			\"try not to segfault, good luck :)",
-			\"don't sleep",
 			\"hello world?",
 			\"programmers start to count from 0",
 			\"man man",
 			\"vim-epitech made by x4m3",
 			\"https://github.com/x4m3/vim-epitech",
 			\"echo $?",
+			\"don't forget to free at the end",
+			\"check your malloc!",
+			\"segmentation fault (core dumped)",
+			\"you're a bad developer",
+			\"csfml is the best thing ever",
+			\"vim > emacs",
+			\"xkcd.com/378",
+			\"hey. real programmers use vim",
+			\"well, real programmers use ed",
+			\"no, real programmers use cat",
+			\"r/ProgrammerHumor",
+			\"rm -rf --no-preserve-root /",
+			\"example of bad code:",
+			\"01100010 01101001 01101110 01100001 01110010 01111001",
+			\"fireplace 4k",
+			\"epitech > 42",
+			\"epitech > epita",
+			\"code on paper!",
+			\"if you code on paper, you're not a real programmer",
+			\"C-x C-c",
+			\":wq",
+			\"M-x doctor",
+			\"there's a problem: the intra is not down",
 			\]
 
 " check if current filetype is supported
@@ -40,7 +62,7 @@ function! s:InputFileDescription()
 	call inputrestore()
 	" if the length of the input is null
 	if strlen(file_description) == 0
-		let currentSecond = strftime('%S')
+		let currentSecond = strftime('%S') / 2
 		let file_description = s:quotes[currentSecond]
 	endif
 	return file_description
