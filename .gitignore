@@ -1,6 +1,8 @@
 # x4m3's gitignore
 # by default: patches, vim, git, linux, osx, windows
 
+doc/tags
+
 ### Patches ###
 *.patch
 
