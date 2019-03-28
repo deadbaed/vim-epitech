@@ -40,6 +40,13 @@ using [semantic versioning](https://semver.org).
 
 all git tags are signed with my [pgp key](https://x4m3.rocks/pgp-0x69771CD04BA82EC0.txt).
 
+**1.3.0 - 2019-03-28**
+- updated c++ header
+- added python header
+- added "funny" quotes if file description is empty
+- year variable is manually set to the current school year
+- updated link to epitech's emacs config git repo
+
 **1.2.0 - 2018-12-01**
 - Showing trailing spaces
 - Using file name for "project name" in header
