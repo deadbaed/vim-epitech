@@ -22,7 +22,7 @@ the epitech header will be then put at the top of your file.
 
 ## credits
 plugin based off [Le-Bit/vim-epitech](https://github.com/Le-Bit/vim-epitech),
-as well off [epitech's emacs config](https://gitlab.com/EpitechContent/dump).
+as well off [epitech's emacs config](https://github.com/Epitech/epitech-emacs).
 
 ## social
 written by [x4m3](https://philippeloctaux.com), and hopefully made better
