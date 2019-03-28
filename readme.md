@@ -16,7 +16,7 @@ if you don't use a plugin manager, i recommand
 
 ## usage
 run `:TekAddHeader` in normal mode to run the plugin, and enter a description
-for your file (or some text will be put instead 😜).
+for your file (or some text will be put instead).
 
 the epitech header will be then put at the top of your file.
 
