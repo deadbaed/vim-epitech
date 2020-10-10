@@ -9,9 +9,7 @@ vim plugin for epitech students
 * displays extra characters (end of line, tabulations, trailing spaces)
 
 ## install
-use your favorite vim plugin manager,
-with the url `https://git.x4m3.rocks/x4m3/vim-epitech`.  
-if you don't use a plugin manager, i recommand
+use your favorite plugin manager. if you don't use one, i recommand
 [vim-plug](https://github.com/junegunn/vim-plug), it's very simple to use.
 
 ## usage
@@ -25,14 +23,10 @@ plugin based off [Le-Bit/vim-epitech](https://github.com/Le-Bit/vim-epitech),
 as well off [epitech's emacs config](https://github.com/Epitech/epitech-emacs).
 
 ## social
-written by [x4m3](https://philippeloctaux.com), and hopefully made better
+written by [phil](https://philippeloctaux.com), and hopefully made better
 by you.
 
 licensed under the **mit license** (see [license.txt](license.txt)).
-
-development is done on [x4m3.rocks!](https://git.x4m3.rocks/x4m3/vim-epitech),
-but feel free to send an email to **p [at] philippeloctaux [dot] com** to
-report a bug or an issue or an idea to improve the plugin.
 
 ## changelog
 because changelogs are better than git dumps, right?
